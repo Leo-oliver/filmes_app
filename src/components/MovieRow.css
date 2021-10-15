@@ -1,0 +1,59 @@
+.movieRow
+{
+    margin-bottom: 30px;
+}
+.movieRow h2
+{
+    font-size: 80px;
+    text-align: center;
+}
+.movieRow_listarea
+{
+    padding: 30px;
+}
+.movieRow_list
+{
+    width: 100%;   
+}
+.movieRow_item
+{
+    display: inline-block;
+    width: 20%;
+    border: 1px solid #fff;
+}
+.movieRow_item img
+{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+    cursor: pointer;   
+}
+.movieRow_item img:hover
+{
+    transform: scale(1);
+}
+
+.dadoFilme
+{
+    display: none;    
+}
+
+.movieRow_item:hover .dadoFilme
+{
+    display: block;    
+}
+
+@media (max-width:760px)
+{
+    .movieRow h2
+    {
+        font-size: 30px;
+        text-align: center;
+    } 
+    .movieRow_item
+    {
+        display: inline-block;
+        width: 100%;
+        border: 1px solid #fff;
+    }
+}
